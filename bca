@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Console\CekSaldo;
+use Console\Mutasi;
+use Dotenv\Dotenv;
+use Symfony\Component\Console\Application;
+
+$dotEnv = new Dotenv(__DIR__);
+$dotEnv->load();
+
+$app = new Application();
+$app->add(new CekSaldo());
+$app->add(new Mutasi());
+$app->run();
