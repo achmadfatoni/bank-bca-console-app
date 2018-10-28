@@ -1,6 +1,14 @@
 # Bank BCA Console App
 Console App for klikbca.com
 
+> Cek saldo rekening
+
+![cek-saldo](https://user-images.githubusercontent.com/5858756/47617911-468d9680-daff-11e8-8420-6407f7cec682.gif)
+
+> List mutasi rekening
+
+![mutasi](https://user-images.githubusercontent.com/5858756/47617918-5b6a2a00-daff-11e8-968b-3b210222e259.gif)
+
 ## Installation
 Composer install to install the dependency
 ```bash
@@ -20,18 +28,18 @@ PASSWORD=yourklikbcapassword
 
 ## Available commands:
 
-Command | Description | Parameters
---------- | ---------- | ------- 
-cek-saldo | Cek saldo rekening | -
-mutasi | Cek mutasi rekening | -f [from], -t [to]
-mutasi | Cek mutasi rekening | -
-list | Print available commands | -
-
-## Usage  
+Command format
 ```bash
 php bca [command] [parameter]
 ```
 
+Command | Description | Parameters
+--------- | ---------- | ------- 
+cek-saldo | Cek saldo rekening | -
+mutasi | Cek mutasi rekening | -f [from], -t [to]
+list | Print available commands | -
+
+## Usage  
 cek saldo example:
 ```bash
 php bca cek-saldo
