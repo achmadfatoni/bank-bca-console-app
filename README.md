@@ -2,11 +2,12 @@
 Console App for klikbca.com
 
 > Cek saldo rekening
-![cek-saldo](https://user-images.githubusercontent.com/5858756/47617722-adf61700-dafc-11e8-867b-92e9f6592488.gif)
+
+![cek-saldo](https://user-images.githubusercontent.com/5858756/47617911-468d9680-daff-11e8-8420-6407f7cec682.gif)
 
 > List mutasi rekening
-![mutasi](https://user-images.githubusercontent.com/5858756/47617707-856e1d00-dafc-11e8-9154-e45c3d83317b.gif)
 
+![mutasi](https://user-images.githubusercontent.com/5858756/47617918-5b6a2a00-daff-11e8-968b-3b210222e259.gif)
 
 ## Installation
 Composer install to install the dependency
