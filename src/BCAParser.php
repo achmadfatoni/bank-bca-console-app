@@ -329,7 +329,11 @@ class BCAParser {
 
 		    $date = $cols->item(0)->nodeValue;
 		    $date = explode('/', $date);
-		    $date = date('Y') . '-' . $date[1] . '-' . $date[0];
+		    if (count($date) == 2) {
+                $date = date('Y') . '-' . $date[1] . '-' . $date[0];
+            } else {
+		        $date = '-';
+            }
 
 		    $description = $cols->item(1);
 		    $flows = $cols->item(2)->nodeValue;
